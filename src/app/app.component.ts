@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'music-player';
+
+  link = 'https://freewavesamples.com/files/Yamaha-V50-Metalimba-C2.wav';
+  play() {
+
+  }
+
+  pause() {
+
+  }
 }

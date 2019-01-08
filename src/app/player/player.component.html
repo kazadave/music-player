@@ -1,0 +1,10 @@
+<div>
+  <button (click)="player.play()">PLAY</button>
+  <button (click)="player.pause()">PAUSE</button>
+</div>
+<audio
+  #player
+  controls
+  [src]="audio">
+
+</audio>
