@@ -8,7 +8,12 @@ import { Component, Input } from '@angular/core';
 export class AppComponent {
   title = 'music-player';
 
-  link = 'https://freewavesamples.com/files/Yamaha-V50-Metalimba-C2.wav';
+  links = [
+    'https://freewavesamples.com/files/Yamaha-V50-Metalimba-C2.wav',
+    'https://freewavesamples.com/files/Yamaha-V50-Metalimba-C2.wav',
+    'https://freewavesamples.com/files/Yamaha-V50-Metalimba-C2.wav',
+    'https://freewavesamples.com/files/Yamaha-V50-Metalimba-C2.wav'
+  ];
   play() {
 
   }
